@@ -10,6 +10,7 @@ main = "src/index.ts"
 compatibility_date = "2025-01-01"
 
 # Almacén donde viven las llaves. El botón "Deploy to Cloudflare" lo CREA
-# AUTOMÁTICAMENTE — no tienes que hacer nada aquí.
+# AUTOMÁTICAMENTE (el id vacío es a propósito: Cloudflare lo rellena solo).
 [[kv_namespaces]]
 binding = "LICENSES"
+id = ""
