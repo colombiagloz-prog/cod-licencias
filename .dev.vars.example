@@ -1,0 +1,5 @@
+# CLAVE SECRETA del servidor de licencias.
+# Al instalar con el botón "Deploy to Cloudflare", Cloudflare te pide este valor
+# y lo guarda cifrado. Es la contraseña para entrar a tu panel /admin y generar
+# llaves. Invéntala larga y difícil, y NO la compartas con los compradores.
+LICENSE_ADMIN_SECRET=

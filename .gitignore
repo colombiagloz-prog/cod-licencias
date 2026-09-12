@@ -1,0 +1,10 @@
+# Secretos y dependencias — NUNCA se suben
+.dev.vars
+**/.dev.vars
+node_modules/
+.wrangler/
+.env
+.env.*
+!.dev.vars.example
+*.log
+.DS_Store

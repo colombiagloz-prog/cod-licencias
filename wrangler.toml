@@ -1,0 +1,15 @@
+# ═══════════════════════════════════════════════════════════════════════════
+#  SERVIDOR DE LICENCIAS — configuración
+#  Este es TU servidor (del proveedor), aparte del producto que vendes.
+#  La única clave secreta (LICENSE_ADMIN_SECRET) NO va aquí: se guarda cifrada
+#  en Cloudflare (el botón te la pide al instalar).
+# ═══════════════════════════════════════════════════════════════════════════
+
+name = "cod-licencias"
+main = "src/index.ts"
+compatibility_date = "2025-01-01"
+
+# Almacén donde viven las llaves. El botón "Deploy to Cloudflare" lo CREA
+# AUTOMÁTICAMENTE — no tienes que hacer nada aquí.
+[[kv_namespaces]]
+binding = "LICENSES"
